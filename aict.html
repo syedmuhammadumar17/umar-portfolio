@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="ass.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    <div class="logo">MyPortfolio</div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#notes">Notes</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+ <section class="hero" data-aos="zoom-in">
+  <video autoplay muted loop class="hero-video">
+    <source src="ass1.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <div class="hero-content">
+    <h1>Syed Muhammad Umar</h1>
+    <p>Welcome to my personal portfolio and semester notes hub</p>
+  </div>
+</section>
+
+<section id="about" class="section" data-aos="fade-up">
+  <h2>About Me</h2>
+  <div class="about-container">
+    <img src="ass.jpg" alt="Profile Picture" class="about-pic" />
+    <p class="about-text">
+    I’m a student passionate of Electrical engineering with a passion for learning and growing . 
+      This website shares a bit about me and my academic journey. I have done my FSC from Army Public School. 
+      I have been part of alot of MUN'S and gained alot of experience which helped me improve my social skills.
+      My journey began as Security Director then I progressed to serving as a Committee Chair.
+      Now I'm currently pursuing Electrical enginnering from PIEAS. Till then Fin.
+    </p>
+  </div>
+</section>
+
+
+  <section id="notes" class="section" data-aos="fade-up">
+    <h2>Semester Notes</h2>
+    <div class="notes-grid">
+      <div class="note-card" data-aos="zoom-in">Calculus</div>
+      <div class="note-card" data-aos="zoom-in" data-aos-delay="100">Physics</div>
+      <div class="note-card" data-aos="zoom-in" data-aos-delay="200">Circuit analysis</div>
+      <div class="note-card" data-aos="zoom-in" data-aos-delay="300">ODE</div>
+      <div class="note-card" data-aos="zoom-in" data-aos-delay="400">AICT</div>
+     
+    </div>
+    <p style="text-align:center;">(Click subjects to view or download notes - coming soon!)</p>
+  </section>
+
+  <section id="contact" class="section" data-aos="fade-up">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Syed Muhammad Umar. All rights reserved.</p>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+</body>
+</html>
